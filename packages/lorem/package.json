@@ -1,7 +1,7 @@
 {
   "name": "@akj-dev/lorem",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/index.js",
   "author": "Kane Clover",
   "license": "MIT",
   "scripts": {
