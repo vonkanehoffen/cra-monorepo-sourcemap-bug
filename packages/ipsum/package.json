@@ -1,0 +1,10 @@
+{
+  "name": "@akj-dev/ipsum",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Kane Clover",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^4.2.4"
+  }
+}

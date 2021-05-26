@@ -1,0 +1,11 @@
+{
+  "name": "monorepo-sourcemap-test",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "author": "Kane Clover",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ]
+}
