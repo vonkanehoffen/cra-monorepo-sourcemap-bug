@@ -6,6 +6,12 @@ interface LoremProps {
 
 export const Lorem = ({ foo }: LoremProps) => {
   return (
-    <h1>Lorem: {foo}</h1>
+    <div>
+      <h1>Lorem: {foo}</h1>
+      <button onClick={() => {
+        throw("error here")
+      }}>Make error</button>
+    </div>
+
   )
 }

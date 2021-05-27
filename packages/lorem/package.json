@@ -5,7 +5,7 @@
   "author": "Kane Clover",
   "license": "MIT",
   "scripts": {
-    "build:package": "tsc -p tsconfig-package.json"
+    "build:package": "tsc"
   },
   "dependencies": {
     "@types/jest": "^26.0.15",
