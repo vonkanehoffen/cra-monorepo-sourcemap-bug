@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { Lorem } from "@akj-dev/lorem";
+import { LocalErrorTest } from './LocalErrorTest'
 
 function App() {
   return (
@@ -12,14 +13,7 @@ function App() {
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
         <Lorem foo="Hello" />
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <LocalErrorTest foo="Hiya" />
       </header>
     </div>
   );
